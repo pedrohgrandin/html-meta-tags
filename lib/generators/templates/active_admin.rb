@@ -9,7 +9,7 @@ ActiveAdmin.register SeoLandingPages::Model do
     column :title
     column :description
     column :keywords
-    default_actions
+    actions
   end
 
   filter :slug
